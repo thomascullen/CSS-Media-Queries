@@ -2,6 +2,7 @@ CSS-Media-Queries
 =================
 
 ##iPhone
+
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -10,7 +11,7 @@ and (max-device-width : 480px) {
 }
 ```
 
-##iPhone portrait
+###iPhone portrait
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -20,7 +21,7 @@ and (orientation : portrait) {
 }
 ```
 
-##iPhone landscape
+###iPhone landscape
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -30,7 +31,7 @@ and (orientation : landscape) {
 }
 ```
 
-##iPhone 5
+###iPhone 5
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -39,7 +40,7 @@ and (max-device-width : 568px) {
 }
 ```
 
-##iPhone 5 portrait
+###iPhone 5 portrait
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -49,7 +50,7 @@ and (orientation : portrait) {
 }
 ```
 
-##iPhone 5 landscape
+###iPhone 5 landscape
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -58,3 +59,35 @@ and (orientation : landscape) {
 /* Styles */
 }
 ```
+
+##iPad
+
+```css
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+```
+
+###iPad portrait
+```css
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+```
+
+###iPad landscape
+```css
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+```
+
+
