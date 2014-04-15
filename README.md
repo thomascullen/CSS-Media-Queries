@@ -90,4 +90,23 @@ and (orientation : landscape) {
 }
 ```
 
+##Kindle
+
+###Kindle portrait
+```css
+@media only screen
+and (min-width: 595px)
+and (max-width: 610px){
+/* Styles */
+}
+```
+
+###Kindle Landscape
+```css
+@media only screen
+and (min-width: 1000px)
+and (max-width: 1030px){
+/* Styles */
+}
+```
 
