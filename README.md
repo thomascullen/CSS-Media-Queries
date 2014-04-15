@@ -11,7 +11,7 @@ and (max-device-width : 480px) {
 }
 ```
 
-###iPhone portrait
+####iPhone portrait
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -21,7 +21,7 @@ and (orientation : portrait) {
 }
 ```
 
-###iPhone landscape
+####iPhone landscape
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -31,7 +31,7 @@ and (orientation : landscape) {
 }
 ```
 
-###iPhone 5
+####iPhone 5
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -40,7 +40,7 @@ and (max-device-width : 568px) {
 }
 ```
 
-###iPhone 5 portrait
+####iPhone 5 portrait
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -50,7 +50,7 @@ and (orientation : portrait) {
 }
 ```
 
-###iPhone 5 landscape
+####iPhone 5 landscape
 ```css
 @media only screen 
 and (min-device-width : 320px) 
@@ -70,7 +70,7 @@ and (max-device-width : 1024px) {
 }
 ```
 
-###iPad portrait
+####iPad portrait
 ```css
 @media only screen 
 and (min-device-width : 768px) 
@@ -80,7 +80,7 @@ and (orientation : portrait) {
 }
 ```
 
-###iPad landscape
+####iPad landscape
 ```css
 @media only screen 
 and (min-device-width : 768px) 
@@ -92,7 +92,7 @@ and (orientation : landscape) {
 
 ##Kindle
 
-###Kindle portrait
+####Kindle portrait
 ```css
 @media only screen
 and (min-width: 595px)
@@ -101,7 +101,7 @@ and (max-width: 610px){
 }
 ```
 
-###Kindle Landscape
+####Kindle Landscape
 ```css
 @media only screen
 and (min-width: 1000px)
